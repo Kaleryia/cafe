@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>согрей — Кофейня в центре</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<header class="header">
+    <div class="container header-container">
+        <div class="logo">
+            <span class="logo-icon">☕</span>
+            <span class="logo-text">DOZA coffee</span>
+        </div>
+        <button class="burger" id="burgerBtn" aria-label="Меню">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="nav" id="navMenu">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Главная</a></li>
+		<li><a href="menu.html" class="nav-link">Меню</a></li>
+		<li><a href="contacts.html" class="nav-link">Контакты</a></li>
+		<li><a href="cart.html" class="nav-link">Корзина</a></li>
+		<li><a href="about.html" class="nav-link">О нас</a></li>
+		<li><a href="reviews.html" class="nav-link">Отзывы</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+      <section class="hero">
+        <div class="container hero-content">
+            <h1>Нельзя купить любовь, но можно купить кофе</h1>
+            <p>Уютная атмосфера, свежая выпечка и лучший зерновой кофе в городе</p>
+            <a href="menu.html" class="btn">Смотреть меню</a>
+        </div>
+    </section>
+
+ <section class="menu-section">
+         <div class="container">
+             <h2 class="section-title">Популярные позиции</h2>
+             <div id="popularGrid" class="menu-grid"></div>
+         </div>
+     </section>
+ </main>    
+
+    <footer class="footer">
+    <div class="container">
+        <p>© 2026 «DOZA coffee» — Ваш уголок радости)</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<button id="scrollTopBtn" style="position:fixed; bottom:30px; right:30px; width:50px; height:50px; background:#4E6851; color:white; border:none; border-radius:50%; cursor:pointer; display:none; align-items:center; justify-content:center; font-size:24px; z-index:999;">↑</button>
+</body>
+</html>
